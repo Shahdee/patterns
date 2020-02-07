@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface Command 
+public interface ICommand 
 {
    void Execute();
+
+   void Undo();
 }
