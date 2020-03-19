@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Adapter\Scripts\Adapter.cs" />
+     <Compile Include="Assets\Adapter\Scripts\Animals.cs" />
      <Compile Include="Assets\Command\Scripts\Commands\CeilingFan\CeilingFanHighCommand.cs" />
      <Compile Include="Assets\Command\Scripts\Commands\CeilingFan\CeilingFanLowCommand.cs" />
      <Compile Include="Assets\Command\Scripts\Commands\CeilingFan\CeilingFanMediumCommand.cs" />
@@ -74,6 +76,9 @@
      <Compile Include="Assets\Command\Scripts\Vendors\Hottube.cs" />
      <Compile Include="Assets\Command\Scripts\Vendors\Light.cs" />
      <Compile Include="Assets\Command\Scripts\Vendors\Stereo.cs" />
+     <Compile Include="Assets\Facade\Scripts\Facade.cs" />
+     <Compile Include="Assets\Facade\Scripts\HomeTheatreDevices.cs" />
+     <Compile Include="Assets\Facade\Scripts\HomeTheatreFacade.cs" />
      <Compile Include="Assets\State\Scripts\GUIMachine.cs" />
      <Compile Include="Assets\State\Scripts\GumballMachine.cs" />
      <Compile Include="Assets\State\Scripts\HasQuarterState.cs" />
