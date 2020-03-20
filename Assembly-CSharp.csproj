@@ -76,6 +76,8 @@
      <Compile Include="Assets\Command\Scripts\Vendors\Hottube.cs" />
      <Compile Include="Assets\Command\Scripts\Vendors\Light.cs" />
      <Compile Include="Assets\Command\Scripts\Vendors\Stereo.cs" />
+     <Compile Include="Assets\Decorator\Scripts\Beverages.cs" />
+     <Compile Include="Assets\Decorator\Scripts\Decorator.cs" />
      <Compile Include="Assets\Facade\Scripts\Facade.cs" />
      <Compile Include="Assets\Facade\Scripts\HomeTheatreDevices.cs" />
      <Compile Include="Assets\Facade\Scripts\HomeTheatreFacade.cs" />

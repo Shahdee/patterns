@@ -8,7 +8,7 @@ public class GUIRemote : MonoBehaviour
 
     public Button m_Button;
 
-    Light light;
+    Light lights;
     LightCommand lightCommand;
     LightOffCommand lightOffCommand;
 
@@ -38,13 +38,13 @@ public class GUIRemote : MonoBehaviour
         // m_Button.onClick.AddListener(Click);
         m_Remote = new Remote();
 
-        light = new Light();
-        lightCommand = new LightCommand(light);
-        lightOffCommand = new LightOffCommand(light);
+        lights = new Light();
+        lightCommand = new LightCommand(lights);
+        lightOffCommand = new LightOffCommand(lights);
 
         int i=0;
 
-        m_Remote.SetSlotCommand(i, (()=>light.On()), (()=>light.Off()));
+        m_Remote.SetSlotCommand(i, (()=>lights.On()), (()=>lights.Off()));
         
         // m_Remote.SetSlotCommand(i, lightCommand, lightOffCommand);
         m_Remote.ClickOn(i);
