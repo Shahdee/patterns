@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Adapter" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Adapter.cs" t="Include" />
+            <e p="Animals.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Command" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CeilingFan" t="Include">
+                <e p="CeilingFanHighCommand.cs" t="Include" />
+                <e p="CeilingFanLowCommand.cs" t="Include" />
+                <e p="CeilingFanMediumCommand.cs" t="Include" />
+                <e p="CeilingFanOffCommand.cs" t="Include" />
+              </e>
+              <e p="Command.cs" t="Include" />
+              <e p="Garage" t="Include">
+                <e p="GarageDoorCommand.cs" t="Include" />
+                <e p="GarageDoorOffCommand.cs" t="Include" />
+              </e>
+              <e p="Light" t="Include">
+                <e p="LightCommand.cs" t="Include" />
+                <e p="LightOffCommand.cs" t="Include" />
+              </e>
+              <e p="MacroCommand.cs" t="Include" />
+              <e p="Stereo" t="Include">
+                <e p="StereoCommand.cs" t="Include" />
+                <e p="StereoOffCommand.cs" t="Include" />
+              </e>
+              <e p="Tube" t="Include">
+                <e p="TubeCommand.cs" t="Include" />
+                <e p="TubeOffCommand.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GUIRemote.cs" t="Include" />
+            <e p="Remote.cs" t="Include" />
+            <e p="Vendors" t="Include">
+              <e p="CeilingFan.cs" t="Include" />
+              <e p="GarageDoor.cs" t="Include" />
+              <e p="Hottube.cs" t="Include" />
+              <e p="Light.cs" t="Include" />
+              <e p="Stereo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Decorator" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Beverages.cs" t="Include" />
+            <e p="Decorator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Facade" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Facade.cs" t="Include" />
+            <e p="HomeTheatreDevices.cs" t="Include" />
+            <e p="HomeTheatreFacade.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Factory" t="Include">
+          <e p="FactoryMethod" t="Include">
+            <e p="AbstractPizzaStore.cs" t="Include" />
+            <e p="ChicagoPizzaStore.cs" t="Include" />
+            <e p="NYPizzaStore.cs" t="Include" />
+          </e>
+          <e p="Ingredients" t="Include">
+            <e p="IIngredient.cs" t="Include" />
+          </e>
+          <e p="Pizza" t="Include">
+            <e p="AbstractPizza.cs" t="Include" />
+            <e p="ChicagoCheesePizza.cs" t="Include" />
+            <e p="ChicagoClamPizza.cs" t="Include" />
+            <e p="EPizzaType.cs" t="Include" />
+            <e p="IPizza.cs" t="Include" />
+            <e p="NYCheesePizza.cs" t="Include" />
+            <e p="NYClamPizza.cs" t="Include" />
+          </e>
+        </e>
+        <e p="State" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="GUIMachine.cs" t="Include" />
+            <e p="GumballMachine.cs" t="Include" />
+            <e p="HasQuarterState.cs" t="Include" />
+            <e p="NoQuarterState.cs" t="Include" />
+            <e p="OutState.cs" t="Include" />
+            <e p="SoldState.cs" t="Include" />
+            <e p="State.cs" t="Include" />
+            <e p="WinnerState.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="patterns.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_patterns.-999844101.00" t="ExcludeRecursive" />
+  </component>
+</project>
