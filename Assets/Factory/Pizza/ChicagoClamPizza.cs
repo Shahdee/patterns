@@ -1,25 +1,12 @@
+using Factory.Ingredient;
+
 namespace Factory.Pizza
 {
-    public class ChicagoClamPizza : IPizza
+    public class ChicagoClamPizza : AbstractPizza
     {
-        public void Prepare()
+        public override void Prepare()
         {
-            throw new System.NotImplementedException();
-        }
-
-        public void Bake()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Cut()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Pack()
-        {
-            throw new System.NotImplementedException();
+            _clams = new FrozenClams();
         }
     }
 }

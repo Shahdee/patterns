@@ -63,23 +63,40 @@
           </e>
         </e>
         <e p="Factory" t="Include">
-          <e p="FactoryMethod" t="Include">
-            <e p="AbstractPizzaStore.cs" t="Include" />
-            <e p="ChicagoPizzaStore.cs" t="Include" />
-            <e p="NYPizzaStore.cs" t="Include" />
+          <e p="Factory.cs" t="Include" />
+          <e p="IngredientFactory" t="Include">
+            <e p="ChicagoIngredientFactory.cs" t="Include" />
+            <e p="IIngredientFactory.cs" t="Include" />
+            <e p="NYIngredientFactory.cs" t="Include" />
           </e>
           <e p="Ingredients" t="Include">
-            <e p="IIngredient.cs" t="Include" />
+            <e p="BrieCheese.cs" t="Include" />
+            <e p="Clams.cs" t="Include" />
+            <e p="FrozenClams.cs" t="Include" />
+            <e p="GaudaCheese.cs" t="Include" />
+            <e p="ICheese.cs" t="Include" />
+            <e p="IClams.cs" t="Include" />
           </e>
           <e p="Pizza" t="Include">
             <e p="AbstractPizza.cs" t="Include" />
+            <e p="CheesePizza.cs" t="Include" />
             <e p="ChicagoCheesePizza.cs" t="Include" />
             <e p="ChicagoClamPizza.cs" t="Include" />
+            <e p="ClamPizza.cs" t="Include" />
             <e p="EPizzaType.cs" t="Include" />
             <e p="IPizza.cs" t="Include" />
             <e p="NYCheesePizza.cs" t="Include" />
             <e p="NYClamPizza.cs" t="Include" />
           </e>
+          <e p="Store" t="Include">
+            <e p="AbstractPizzaStore.cs" t="Include" />
+            <e p="ChicagoPizzaStore.cs" t="Include" />
+            <e p="NYPizzaStore.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Singleton" t="Include">
+          <e p="Singleton.cs" t="Include" />
+          <e p="UniqueManager.cs" t="Include" />
         </e>
         <e p="State" t="Include">
           <e p="Scripts" t="Include">

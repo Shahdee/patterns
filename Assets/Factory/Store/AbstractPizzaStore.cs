@@ -4,7 +4,6 @@ namespace Factory.FactoryMethod
 {
     public abstract class AbstractPizzaStore
     {
-
         public IPizza PreparePizza(EPizzaType pizzaType)
         {
             IPizza pizza = CreatePizza(pizzaType);

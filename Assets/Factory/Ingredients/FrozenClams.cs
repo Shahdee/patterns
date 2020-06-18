@@ -1,6 +1,6 @@
 namespace Factory.Ingredient
 {
-    public interface IIngredient
+    public class FrozenClams : IClams
     {
         
     }

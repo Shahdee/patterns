@@ -1,28 +1,29 @@
+using Factory.AbstractFactory;
+using Factory.Ingredient;
+using UnityEngine;
+
 namespace Factory.Pizza
 {
-    public class AbstractPizza : IPizza
+    public abstract class AbstractPizza : IPizza
     {
-        // TODO add ingredients 
-        
-        
-        public void Prepare()
-        {
-            throw new System.NotImplementedException();
-        }
+        protected ICheese _cheese;
+        protected IClams _clams;
+
+        public abstract void Prepare();
 
         public void Bake()
         {
-            throw new System.NotImplementedException();
+            Debug.Log("baking");
         }
 
         public void Cut()
         {
-            throw new System.NotImplementedException();
+            Debug.Log("cutting");
         }
 
         public void Pack()
         {
-            throw new System.NotImplementedException();
+            Debug.Log("packing");
         }
     }
 }
